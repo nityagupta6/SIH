@@ -162,17 +162,21 @@ background-image: linear-gradient(147deg, #000000 0%, #04619f 74%); */
   right: -40px;
 }
 .list-services .service-box .text {
-  font-size: .9rem;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
   color: black;
 }
+.list-services .service-box .text1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: black;
+    font-weight: bold;
+  }
 .list-services .service-box .title {
-  background: linear-gradient(15deg, #fc9209da, #97e694);
-   
+  background: linear-gradient(15deg,  #e76711e8 #f7762c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 25px;
-  font-weight: 900;
+  font-size: 2.rem;
   transform: scaleY(1.05);
 
 }
@@ -801,18 +805,4 @@ h2 {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
-}
-
-.footer{
-padding: 20px;
-font-size: 30px;
-height: auto;
-flex-direction: row;
-width: 100%;
-text-align: right;
-text-decoration: none;
-}
-.footer p{
-  font-size: large;
-  color: white;
 }
